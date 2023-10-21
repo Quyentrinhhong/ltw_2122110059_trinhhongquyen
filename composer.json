@@ -1,0 +1,23 @@
+{
+    "name":"trinhhongquyen/shop-ban-hang",
+    "description":"Xay dung website ban hang nam hoc 2023-2024",
+    "authors":[
+        {
+            "name": "Trịnh Hồng Quyên",
+            "email":"hongquyen.20603@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/"
+        },
+        "files":[
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
